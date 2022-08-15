@@ -4,6 +4,7 @@ import Character from './Character.js'
 let monstersArray = ["orc", "demon", "goblin"]
 let isWaiting = false
 
+
 function getNewMonster() {
     const nextMonsterData = characterData[monstersArray.shift()]
     return nextMonsterData ? new Character(nextMonsterData) : {}
