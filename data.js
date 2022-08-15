@@ -13,8 +13,8 @@ const characterData = {
         diceCount: 1,
         currentDiceScore: []
     },
-    demon: {
-        name: "Demon",
+    ugly: {
+        name: "Ugly",
         avatar: "images/demon.png",
         health: 25,
         diceCount: 2,
